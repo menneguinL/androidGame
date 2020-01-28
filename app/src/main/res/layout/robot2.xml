@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp" app:srcCompat="@drawable/robot2" android:id="@+id/imageView5"
+            android:translationY="275dp" android:translationX="25dp"/>
+    <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp" app:srcCompat="@drawable/robot1" android:id="@+id/imageRobot"
+            android:translationX="240dp" android:translationY="125dp"/>
+    <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp" app:srcCompat="@drawable/robot2" android:id="@+id/imageView2"
+            android:translationY="275dp" android:translationX="25dp"/>
+</LinearLayout>
